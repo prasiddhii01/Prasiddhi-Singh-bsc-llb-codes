@@ -1,0 +1,8 @@
+//program to print "My First Code"
+//developed by Prasiddhi Date 13/08/25
+#include<stdio.h>
+void main()
+{
+    printf ("My First Code");
+
+}
