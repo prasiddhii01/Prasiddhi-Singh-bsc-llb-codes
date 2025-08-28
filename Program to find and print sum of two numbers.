@@ -1,0 +1,12 @@
+//program to find and print sum of 2 numbers
+//Developed by Prasiddhi  Date: 27/08/2025
+#include<stdio.h>
+void main ()
+{
+    int a,b, sum;
+    printf("enter two values");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    sum=a+b;
+    printf("sum=%d",sum);
+}
