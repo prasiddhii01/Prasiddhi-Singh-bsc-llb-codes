@@ -1,0 +1,12 @@
+//program to find temperature from celsius to fahrenheit
+//Developed by Prasiddhi  Date: 27/08/2025
+#include<stdio.h>
+void main ()
+{
+  float celsius,fahrenheit;
+  printf("enter the temperture in celsius");
+  scanf("%f",&celsius);
+  fahrenheit= (celsius*9/5)+32;
+  printf("%f celsius = % fahrenheit\n" ,celsius,fahrenheit);
+
+}
