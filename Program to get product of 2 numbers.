@@ -1,0 +1,13 @@
+//Program to get product of 2 numbers.
+//developed by Praasiddhi    date: 11/09/25
+#include <stdio.h>
+ void main()
+ {
+    int num1, num2, product;
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    product = num1 * num2;
+    printf("%d and %d =%d\n", num1, num2, product);
+}
