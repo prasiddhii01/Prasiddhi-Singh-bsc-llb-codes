@@ -1,0 +1,12 @@
+//Program to find simple interest.
+//developed by Prasiddhi    date:11/09/25
+#include <stdio.h>
+void main()
+{
+    int p,r,t;
+    float SI;
+    printf("enter value of p,r,t\t");
+    scanf ("%d %d %d",&p,&r,&t);
+    SI = (p*r*t)/100;
+    printf ("SI=%f",SI);
+}
