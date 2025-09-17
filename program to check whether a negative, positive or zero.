@@ -1,0 +1,21 @@
+ //program to check whether a negative,positive or zero.
+//developed by Prasiddhi   Date: 17/09/25
+#include <stdio.h>
+void main()
+{
+    int x;
+    printf("enter value of x");
+    scanf("%d",&x);
+    if (x==0)
+    {
+     printf("x is zero");
+    }
+    else if (x<0)
+    {
+     printf ("x is negative");
+    }
+    else if (x>0)
+    {
+    printf("x is positive");
+    }
+}
