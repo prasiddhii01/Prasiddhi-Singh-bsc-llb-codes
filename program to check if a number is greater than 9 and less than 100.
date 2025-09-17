@@ -1,0 +1,17 @@
+//program to check if a number is greater than 9 and less than 100.
+//developed by Prasiddhi         Date:17/09/25
+#include <stdio.h>
+void main()
+{
+    int num;
+    printf("enter your num ");
+    scanf ("%d",&num);
+    if (num>9&num<100)
+    {
+     printf("num is between 10 to 99 \n");
+    }
+    else
+    {
+     printf("num is not between 10 to 99 \n");
+    }
+}
