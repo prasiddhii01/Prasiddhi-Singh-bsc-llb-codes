@@ -1,0 +1,11 @@
+//program to print table of a number.
+//developed by Prasiddhi   Date: 17/09/25
+#include <stdio.h>
+void main()
+{
+    int n,i;
+    printf("enter value of n\t");
+    scanf("%d",&n);
+    for (i=1;i<=n;i++)
+    printf("%d\n",n*i);
+}
