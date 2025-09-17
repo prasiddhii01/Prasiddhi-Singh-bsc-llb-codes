@@ -1,4 +1,4 @@
-//program to print table of a number.
+//program to print table of n number.
 //developed by Prasiddhi   Date: 17/09/25
 #include <stdio.h>
 void main()
