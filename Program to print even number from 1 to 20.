@@ -1,0 +1,10 @@
+//program to print even number from 1 to 20.
+//developed by Prasiddhi       Date: 18/09/25
+#include <stdio.h>
+void main()
+{
+    int i;
+    printf("even numbers from 1 to 20\n");
+    for(i=2;i<=20;i+=2)
+    printf ("%d\n",i);
+}
