@@ -1,0 +1,18 @@
+//Program to print reverse of a number of a number.
+//Developed by Prasiddhi       Date: 08/10/25
+# include<stdio.h>
+void main ()
+{
+    int reverse ,n;
+    printf("enter a number");
+    scanf("%d",&n);
+    {
+        int reverse = 0;
+        while(n>0)
+        {
+            reverse = reverse*10+n%10;
+            n=n/10;
+        }
+        printf ("%d",reverse);
+    }
+}
