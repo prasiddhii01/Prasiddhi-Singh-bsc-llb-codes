@@ -13,6 +13,7 @@ sum = a + b;
 diff = a - b;
 pro=a * b;
 mod=a % b;
+div=a+o.o/b;
 printf("sum =%d\n", sum);
 printf("diff=%d\n", diff);
 printf("pro=%d\n", pro);
