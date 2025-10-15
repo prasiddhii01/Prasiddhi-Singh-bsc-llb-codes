@@ -1,0 +1,22 @@
+//program to input marks and print percentage using array
+//developed by Prasiddhi  date 15/10/25
+#include<stdio.h>
+void main()
+{
+    float marks [6];
+    int i;
+    float percentage;
+    float sum;
+    for(i=0;i<=5;i++)
+    {
+printf("Enter %d element",i+1);
+scanf("%f",&marks[i]);
+    }
+    for(i=0;i<=5;i++)
+    {
+        
+        sum = sum + marks[i];
+    }
+percentage = sum / 6;
+printf("Percentage = %f",percentage);
+}
