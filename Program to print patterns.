@@ -1,0 +1,23 @@
+//program  to print patterns .
+//developed by prasiddhi      Date:28/10/25
+#include <stdio.h>
+void main() 
+{
+    int i, j, rows = 4;
+     printf(" Alphabet and number pattern  \n");
+    for (i = 1; i <= rows; i++)
+    {
+        for (j = 1; j <= i; j++)
+            printf("%c ", 'A' + j - 1);
+        printf("\n");
+    }
+    for (i = 1; i <= rows; i++)
+    {
+        for (j = 1; j <= rows - i; j++)
+            printf("  ");
+        int num = rows - i + 1;
+        for (j = 1; j <= i; j++)
+            printf("%d ", num);
+        printf("\n");
+    }
+}
