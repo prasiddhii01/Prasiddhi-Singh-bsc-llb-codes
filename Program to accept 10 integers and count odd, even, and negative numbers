@@ -1,0 +1,22 @@
+// Program to accept 10 integers and count odd, even, and negative numbers
+// Developed by Prasiddhi                Date: 29/10/25
+#include <stdio.h>
+void main()
+{
+    int arr[10];
+    int i, odd_count = 0, even_count = 0, negative_count = 0;
+    printf("Enter 10 integer values:\n");
+    for (i = 0; i < 10; i++) 
+    {
+        scanf("%d", &arr[i]);
+        if (arr[i] % 2 == 0)
+            even_count++;
+        else
+            odd_count++;
+        if (arr[i] < 0)
+            negative_count++;
+    }
+    printf("\nNumber of even numbers: %d", even_count);
+    printf("\nNumber of odd numbers: %d", odd_count);
+    printf("\nNumber of negative numbers: %d\n", negative_count);
+}
