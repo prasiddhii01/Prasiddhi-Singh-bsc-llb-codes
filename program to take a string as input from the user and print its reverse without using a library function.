@@ -1,0 +1,19 @@
+//program to take a string as input from the user and print its reverse without using a library function.
+//developed by prasiddhi 
+#include <stdio.h>
+void main()
+{
+    char str[100];
+    int i, length = 0;
+    printf("Enter a string: ");
+    gets(str);  // Note: gets() is unsafe, prefer fgets() in real applications
+    while (str[length] != '\0')
+    {
+        length++;
+    }
+    printf("Reversed string: ");
+    for (i = length - 1; i >= 0; i--) {
+        printf("%c", str[i]);
+    }
+    printf("\n");
+}
